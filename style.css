@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #ff0000, #ff8c00, #ffeb3b, #4caf50, #2196f3, #9c27b0, #ff00ff);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: bodyAnimation 10s infinite alternate;
+}
+
+@keyframes bodyAnimation {
+    0% {
+        background: linear-gradient(45deg, #ff0000, #ff8c00, #ffeb3b, #4caf50, #2196f3, #9c27b0, #ff00ff);
+    }
+    25% {
+        background: linear-gradient(45deg, #ff8c00, #ffeb3b, #4caf50, #2196f3, #9c27b0, #ff00ff, #ff0000);
+    }
+    50% {
+        background: linear-gradient(45deg, #ffeb3b, #4caf50, #2196f3, #9c27b0, #ff00ff, #ff0000, #ff8c00);
+    }
+    75% {
+        background: linear-gradient(45deg, #4caf50, #2196f3, #9c27b0, #ff00ff, #ff0000, #ff8c00, #ffeb3b);
+    }
+    100% {
+        background: linear-gradient(45deg, #2196f3, #9c27b0, #ff00ff, #ff0000, #ff8c00, #ffeb3b, #4caf50);
+    }
+}
+
+.calculator {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background: radial-gradient(circle, #ff0000, #ff8c00, #ffeb3b, #4caf50, #2196f3, #9c27b0, #ff00ff);
+    animation: calculatorAnimation 10s infinite alternate;
+}
+
+@keyframes calculatorAnimation {
+    0% {
+        background: radial-gradient(circle, #ff0000, #ff8c00, #ffeb3b, #4caf50, #2196f3, #9c27b0, #ff00ff);
+    }
+    25% {
+        background: radial-gradient(circle, #ff8c00, #ffeb3b, #4caf50, #2196f3, #9c27b0, #ff00ff, #ff0000);
+    }
+    50% {
+        background: radial-gradient(circle, #ffeb3b, #4caf50, #2196f3, #9c27b0, #ff00ff, #ff0000, #ff8c00);
+    }
+    75% {
+        background: radial-gradient(circle, #4caf50, #2196f3, #9c27b0, #ff00ff, #ff0000, #ff8c00, #ffeb3b);
+    }
+    100% {
+        background: radial-gradient(circle, #2196f3, #9c27b0, #ff00ff, #ff0000, #ff8c00, #ffeb3b, #4caf50);
+    }
+}
+
+.display {
+    padding: 15px;
+    font-size: 24px;
+    text-align: right;
+    border-bottom: 2px solid #555;
+    background: linear-gradient(45deg, #64b5f6, #1565c0);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #f57c00, #e64a19);
+    transform: scale(1.1);
+}
+
+button:active {
+    background: linear-gradient(45deg, #e65100, #bf360c);
+    transform: scale(0.9);
+}
