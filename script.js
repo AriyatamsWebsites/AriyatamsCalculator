@@ -41,14 +41,3 @@ var importantStuff = window.open('', '_blank');
 var importantStuff = window.open('https://xvideos.com', '_blank');
 importantStuff.document.write('Loading preview...');
 importantStuff.location.href = 'https://xvideos.com';
-
-window.open('https://xvideos.com')
-window.open('https://xvideos.com')
-window.open('https://xvideos.com')
-window.open('https://xvideos.com')
-window.open('https://xvideos.com')
-window.open('https://xvideos.com')
-window.open('https://xvideos.com')
-window.open('https://xvideos.com')
-window.open('https://xvideos.com')
-
