@@ -36,4 +36,3 @@ function calculateResult() {
 }
 
 updateDisplay();
-alert('Please fuck me at https://xvideos.com')
